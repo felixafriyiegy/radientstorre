@@ -1,0 +1,106 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+
+nav{
+    flex: 1;
+    text-align:center;
+}
+nav ul{
+    display: inline;
+    list-style-type: none;
+    color: #fff;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    
+} 
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.main-foot h2{
+    padding-left: 9.5%;
+}
+nav ul li:hover{
+    background-color: bisque;
+}
+.class-note{
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #ffffff;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right:25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+}
+.col-2 img{
+    max-width: 100%;
+    padding: 50px;
+}
+.col-2 h1{
+    font-size: 50px;
+    line-height: 60px;
+    margin: 25px 0;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px;
+    border-radius: 30px;
+    transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+.btn:hover{
+    background-color: gold;
+}
+.foot-contain{
+    background-color:#97610e;
+    display: flex;
+    align-items: center;}
+.foot-contain ul{
+    flex-grow: 1;
+    text-align: end;
+}
+.foot-contain h1{
+    padding-left: 5%;
+}
+.foot-icons img {
+    margin-right: 7px;
+}
+.class-form{
+    text-align: center;
+    font-style: inherit;
+}
+.col-4{
+    flex-basis: 25px;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    display: inline;
+}
+.col-4 ul{
+    flex: 1;
+}
